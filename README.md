@@ -18,8 +18,11 @@ DinoSync can also send notifications to the system tray. If you'd like to unmute
 The sync and broadcast port values should be set according to your group host's config. These cannot be the same port.
 <br>The `SYNC_HOST` argument is the domain or address on which your group's server is accessible.
 
-**You MUST port-forward the `BROADCAST_PORT` value (TCP) to whichever machine is running the DinoSync client.**
-<br>It's also a good idea to make a shortcut of the program and put it in the startup folder.
+> [!IMPORTANT]
+> You MUST port-forward the `BROADCAST_PORT` value (TCP) to whichever machine is running the DinoSync client.
+
+> [!TIP]
+> It's also a good idea to make a shortcut of the program and put it in the startup folder.
 
 You can also specify the time at which you'd like DinoSync to perform a handshake with the server. (Default: noon)
 
