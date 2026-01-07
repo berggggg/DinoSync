@@ -43,7 +43,7 @@ If you want to run your own DinoSync group, you'll need the `DinoSyncServer.exe`
 Regardless of where this program is placed, the `_interal` folder needs to be in the same directory.
 
 On the first launch (or if it's missing), the server will create a new config file.
-> [!NOTE]
+> [!IMPORTANT]
 > DinoSync will refuse to start without a group key.
 > <br>Whatever you enter for your group's secret key will need to be in your client configs as well.
 
