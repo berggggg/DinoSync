@@ -11,7 +11,9 @@ Anybody who wants to join a DinoSync group (as a client) only needs the `DinoSyn
 
 You'll need to set an ID for yourself on the first line. 
 On the second line, enter the group key. This must match the server's group key to allow synchronization.
-**DinoSync will refuse to start unless you set an ID and group key.**
+
+> [!IMPORTANT]
+> DinoSync will refuse to start unless you set an ID and group key.**
 
 DinoSync can also send notifications to the system tray. If you'd like to unmute these, set the value to false.
 
@@ -74,4 +76,5 @@ You can right-click the icon to see your current database entries and the most r
 On the server GUI, clicking on an entry will remove it from the database. 
 Clients will see the updated list on their next handshake.
 
-If you'd like to see the network activity as it occurs, click the `Restart in Debug Mode` option to get access to a command line output.
+> [!TIP]
+> If you'd like to see the network activity as it occurs, click the `Restart in Debug Mode` option to get access to a command line output.
