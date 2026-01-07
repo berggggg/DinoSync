@@ -52,7 +52,8 @@ The server host will need either a static IP address or tunnel for the clients t
 
 > [!WARNING]
 > DinoSync mimics Command-and-Control (C2) traffic.
-> <br>If you use a tunnel service to host DinoSync, review the terms and conditions before starting.
+> <br>If you use a tunnel service to host DinoSync, review their terms and conditions before starting.
+> <br>I am not responsible for your account getting banned!
 
 The `HOST` argument in the server config should generally be left alone. `0.0.0.0` just means the server will listen for activity on all network devices.
 
