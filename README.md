@@ -40,13 +40,14 @@ Regardless of where this program is placed, the `_interal` folder needs to be in
 On the first launch (or if it's missing), the server will create a new config file.
 > [!NOTE]
 > DinoSync will refuse to start without a group key.
-<br>Whatever you enter for your group's secret key will need to be in your client configs as well.
+> <br>Whatever you enter for your group's secret key will need to be in your client configs as well.
 
 The server host will need either a static IP address or tunnel for the clients to connect to. 
 <br>**The server domain is not required in the server's config, only the port.**
 
 > [!WARNING]
-> DinoSync mimics Command-and-Control (C2) traffic. If you use a tunnel service to host DinoSync, review the terms and conditions before starting.
+> DinoSync mimics Command-and-Control (C2) traffic.
+> <br>If you use a tunnel service to host DinoSync, review the terms and conditions before starting.
 
 The `HOST` argument in the server config should generally be left alone. `0.0.0.0` just means the server will listen for activity on all network devices.
 
