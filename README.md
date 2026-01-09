@@ -6,7 +6,7 @@
 A simple group IP address synchronization tool.
 
 ## Client Setup
-Anybody who wants to join a DinoSync group (as a client) only needs the `DinoSync.exe` file.
+Anybody who wants to join a DinoSync group (as a client) only needs the `DinoSyncClient.exe` file.
 <br>Just copy/paste the program to any location and run it. A new `config.json` file will be created on the first launch.
 
 You'll need to set an ID for yourself on the first line. 
